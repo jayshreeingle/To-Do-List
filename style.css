@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header nav{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    padding: 25px;
+    background-color: #16161ed9;
+    color: white;
+}
+
+header nav ul li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.main-container{
+    width: 80vw;
+    height: 52vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:50px auto;
+}
+.main-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+.main-form input{
+    width: 65em;
+    height: 3em;
+    margin: 15px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-style: none;
+    border: 0.5px solid rgb(172, 169, 169);
+}
+
+.main-form #description{
+    width: 65em;
+    height: 5em;
+    margin: 15px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border-style: none;
+    border: 0.5px solid rgb(172, 169, 169);
+}
+
+#tit{
+    margin-right: 59em;
+}
+#desc{
+    margin-right: 56em;
+}
+
+.prim-btn{
+    display: flex;
+    align-self: flex-start;
+    margin: 15px 0px 0px 12px;
+}
+.btn{
+    width: 7em;
+    height: 2.5em;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: #0980b9;
+    color: white;
+    border-style: none;
+    margin: 5px;
+}
+.btn-sm{
+    width: 5em;
+    height: 2em;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: #0980b9;
+    color: white;
+    border-style: none;
+    margin: 5px;
+}
+
+.Items h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.mid-container{
+    width: 80vw;
+    margin: auto;
+}
+
+table tr th{
+    padding: 15px 76px;
+}
+table tr td{
+    padding: 15px 30px;
+    text-align: center;
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #16161ed9;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>TO DO LIST</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="main-form">
+                <span id="tit">Title</span> <input type="text" name="title" id="title">
+                <span id="desc">Description</span>
+                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                <div class="prim-btn">
+                    <button id="add" class="btn">Add to List</button>
+                    <button class="btn" onclick="clearStorage()">Clear List</button>
+                </div>
+            </div>
+        </div>
+        <div class="mid-container">
+            <div class="Items">
+                <h2>Your Items</h2>
+                <hr>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>S.No.</th>
+                            <th>Item Title</th>
+                            <th>Item Description</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <tr>
+                            <td>1.</td>
+                            <td>Wake Up Early</td>
+                            <td>To be fit</td>
+                            <td><input type="checkbox" name="status" id="status"></td>
+                            <td><button class="btn-sm">Delete</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <span>To Do List copyrights &copy; reserved</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
